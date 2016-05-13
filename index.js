@@ -1,10 +1,6 @@
 'use strict'
-module.exports = plugin
+module.exports = (mos, md) => Object.assign(mos.scope, require('./lib')(md))
 
-const createSnippetRenderer = require('./lib/create-snippet-renderer')
-
-function plugin (markdown) {
-  return {
-    snippet: createSnippetRenderer(markdown),
-  }
+module.exports.attributes = {
+  pkg: require('./package.json'),
 }
