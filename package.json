@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zkochan/mos-plugin-snippet"
+    "url": "https://github.com/mosjs/mos-plugin-snippet"
   },
   "keywords": [
     "mos-plugin",
@@ -32,9 +32,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zkochan/mos-plugin-snippet/issues"
+    "url": "https://github.com/mosjs/mos-plugin-snippet/issues"
   },
-  "homepage": "https://github.com/zkochan/mos-plugin-snippet#readme",
+  "homepage": "https://github.com/mosjs/mos-plugin-snippet#readme",
   "dependencies": {},
   "devDependencies": {
     "chai": "^3.4.1",

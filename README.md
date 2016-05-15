@@ -8,8 +8,8 @@
 
 <!--@shields.flatSquare('npm', 'travis', 'coveralls')-->
 [![NPM version](https://img.shields.io/npm/v/mos-plugin-snippet.svg?style=flat-square)](https://www.npmjs.com/package/mos-plugin-snippet)
-[![Build status for master](https://img.shields.io/travis/zkochan/mos-plugin-snippet/master.svg?style=flat-square)](https://travis-ci.org/zkochan/mos-plugin-snippet)
-[![Test coverage for master](https://img.shields.io/coveralls/zkochan/mos-plugin-snippet/master.svg?style=flat-square)](https://coveralls.io/r/zkochan/mos-plugin-snippet?branch=master)
+[![Build status for master](https://img.shields.io/travis/mosjs/mos-plugin-snippet/master.svg?style=flat-square)](https://travis-ci.org/mosjs/mos-plugin-snippet)
+[![Test coverage for master](https://img.shields.io/coveralls/mosjs/mos-plugin-snippet/master.svg?style=flat-square)](https://coveralls.io/r/mosjs/mos-plugin-snippet?branch=master)
 <!--/@-->
 
 <!--@installation()-->
@@ -55,14 +55,14 @@ console.log('bar')
 * * *
 
 <!--@dependencies({ shield: 'flat-square' })-->
-## Dependencies [![Dependency status for master](https://img.shields.io/david/zkochan/mos-plugin-snippet/master.svg?style=flat-square)](https://david-dm.org/zkochan/mos-plugin-snippet/master)
+## Dependencies [![Dependency status for master](https://img.shields.io/david/mosjs/mos-plugin-snippet/master.svg?style=flat-square)](https://david-dm.org/mosjs/mos-plugin-snippet/master)
 
 None
 
 <!--/@-->
 
 <!--@devDependencies({ shield: 'flat-square' })-->
-## Dev Dependencies [![devDependency status for master](https://img.shields.io/david/dev/zkochan/mos-plugin-snippet/master.svg?style=flat-square)](https://david-dm.org/zkochan/mos-plugin-snippet/master#info=devDependencies)
+## Dev Dependencies [![devDependency status for master](https://img.shields.io/david/dev/mosjs/mos-plugin-snippet/master.svg?style=flat-square)](https://david-dm.org/mosjs/mos-plugin-snippet/master#info=devDependencies)
 
 - [chai](https://github.com/chaijs/chai): BDD/TDD assertion library for node.js and the browser. Test framework agnostic.
 - [cz-conventional-changelog](https://github.com/commitizen/cz-conventional-changelog): Commitizen adapter following the conventional-changelog format.
