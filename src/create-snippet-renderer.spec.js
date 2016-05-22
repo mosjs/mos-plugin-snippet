@@ -1,9 +1,7 @@
-'use strict'
-const describe = require('mocha').describe
-const it = require('mocha').it
-const expect = require('chai').expect
-const createSnippetRenderer = require('./create-snippet-renderer')
-const path = require('path')
+import {describe, it} from 'mocha'
+import {expect} from 'chai'
+import createSnippetRenderer from './create-snippet-renderer'
+import path from 'path'
 
 describe('createSnippetRenderer', () => {
   const snippet = createSnippetRenderer({

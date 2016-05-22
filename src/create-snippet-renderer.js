@@ -1,16 +1,15 @@
-'use strict'
-const path = require('path')
-const fs = require('fs')
-const removeLastEOL = require('./remove-last-eol')
+import path from 'path'
+import fs from 'fs'
+import removeLastEOL from './remove-last-eol'
 
 const regexes = {
-  js: '\/\/ *#{anchor}\n([\\s\\S]*?)\/\/ *#',
-  css: '\/\\* *#{anchor} *\\*\/\n([\\s\\S]*?)\/\\* *# *\\*\/',
+  js: '// *#{anchor}\n([\\s\\S]*?)// *#',
+  css: '/\\* *#{anchor} *\\*/\n([\\s\\S]*?)/\\* *# *\\*/',
   html: '<!-- *#{anchor} *-->\n([\\s\\S]*?)<!-- *# *-->',
   md: '<!-- *#{anchor} *-->\n([\\s\\S]*?)<!-- *# *-->',
 }
 
-module.exports = markdown => {
+export default markdown => {
   const markdownDir = path.dirname(markdown.filePath)
 
   return (snippetId, opts) => {
