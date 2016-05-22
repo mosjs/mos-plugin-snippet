@@ -4,6 +4,6 @@ export default function plugin (mos, md) {
   mos.scope.snippet = createSnippetRenderer(md)
 }
 
-module.exports.attributes = {
+plugin.attributes = {
   pkg: require('../package.json'),
 }
